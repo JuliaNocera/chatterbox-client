@@ -1,5 +1,5 @@
 body {
-    background: #eee;
+    background: #7A005C;
     text-align: center;
     padding: 0 25px;
     font-family: arial, sans-serif;
@@ -9,10 +9,11 @@ body {
     width: 500px;
     margin: auto;
     text-align: left;
-    background: white;
+    background: #006699;
     padding: 50px 60px;
-    border: solid #ddd;
     border-width: 0 1px 1px 1px;
+    border-radius: 40px
+
 }
 
 #main h1 {
@@ -20,6 +21,8 @@ body {
     font-size: 35px;
     margin-bottom: 5px;
     padding: 5px;
+    color: white;
+    margin-left: 140px
 }
 
 #main h1 span {
@@ -55,14 +58,23 @@ form {
 form input[type=text] {
     margin-right: 10px;
     width: 70%;
-    font-size: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: monospace, helvetica; 
+    color: #A82BE5;
     padding: 5px;
+    background-color: #33CCFF;
+    margin-left: 60px;
+    border: none;
+    border-radius: 3px
 }
 
 .chat {
     padding: 5px;
+    font-family: monospace, helvetica; 
     margin-bottom: 5px;
-    background-color: #eee;
+    background-color: #33CCCC;
+    border-radius: 5px
 }
 
 .chat .username {
@@ -70,7 +82,8 @@ form input[type=text] {
 }
 
 .chat:hover {
-    background-color: #ddd;
+    background-color: #FF7519;
+    border-radius: 10px
 }
 
 .spinner {
@@ -81,4 +94,15 @@ form input[type=text] {
 
 .spinner img {
     padding: 10px;
+}
+
+#roomSelect{
+    width: 100px;
+    font-family: monospace;
+    margin-left: 10px
+}
+
+#rooms{
+    color: white;
+    margin-left: 154px
 }
